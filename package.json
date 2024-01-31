@@ -1,0 +1,25 @@
+{
+  "name": "logfire-aws-lambda",
+  "type": "module",
+  "main": "index.js",
+  "version": "0.1.0",
+  "description": "AWS Lambda for forwarding CloudWatch logs to Logfire",
+  "keywords": [
+    "aws",
+    "lambda",
+    "cloudwatch",
+    "logs",
+    "logfire"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logfire-ai/logfire-aws-lambda"
+  },
+  "dependencies": {
+    "@logfire-sh/node": "1.0.1"
+  },
+  "scripts": {
+    "build": "build/build.sh"
+  },
+  "license": "MIT"
+}

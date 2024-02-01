@@ -15,3 +15,4 @@ zip -rq "$BUILD_DIR/$ARCHIVE_NAME" "$ROOT_DIR/index.js" "$ROOT_DIR/src" "$ROOT_D
 echo
 echo "ℹ️  Upload the ZIP archive '$BUILD_DIR/$ARCHIVE_NAME' to your AWS Lambda"
 echo
+

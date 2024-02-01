@@ -1,3 +1,4 @@
-/build/*
-!/build/build.sh
-/node_modules/*
+node_modules/
+./package-lock.json
+build/
+.idea

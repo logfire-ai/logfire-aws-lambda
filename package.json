@@ -2,7 +2,7 @@
   "name": "logfire-aws-lambda",
   "type": "module",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "AWS Lambda for forwarding CloudWatch logs to Logfire",
   "keywords": [
     "aws",

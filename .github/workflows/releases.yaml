@@ -19,11 +19,11 @@ jobs:
           node-version: 18.x
           cache: npm
 
-      - name: Install dependencies
-        run: npm install
+      - name: Set execute permission for build.sh
+        run: chmod +x build/build.sh
 
       - name: Build ZIP archive
-        run: npm run build
+        run: bash build/build.sh
 
       - name: Tag new version
         id: tagger
